@@ -1,0 +1,11 @@
+.contenedor-principal-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-head{
+    width: 5em;
+    height: 6em;
+}

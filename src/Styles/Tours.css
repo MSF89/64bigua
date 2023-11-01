@@ -1,0 +1,45 @@
+
+
+.contenedor-tours{
+  width: 20em;
+  height: 10em;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFED00;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 19%);
+}
+
+.img{
+  height: 9em;
+  width: 9em;
+
+  padding: 10px;
+}
+
+.contenedor-info-tour{
+  width: 20em;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.25rem;
+  padding: 10px;
+}
+
+.contenedor-nombre-tour{
+  font-size: 1.3rem;
+  border-bottom: .1em solid grey;
+  padding-bottom: .5em;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-descripcion{
+  padding: 1em;
+  font-size: .75em;
+  text-align:left;
+  background-color: #6E6D6D;
+  color: #fff;
+}
+

@@ -1,0 +1,22 @@
+.contenedor-infotour{
+    width: 80vw;
+    min-height: 70vh;
+    background-color: #FFED00;
+}
+
+.contenedor-info{
+    margin-top: .5em;
+}
+.descripcion{
+    margin: 0 1em;
+    padding: 1em;
+    font-size: .75em;
+    text-align:left;
+    background-color: #6E6D6D;
+    color: #fff;
+  }
+
+.contenedor-imgs{
+    padding: .5em;
+    display: grid;
+}

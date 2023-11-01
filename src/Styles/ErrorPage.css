@@ -1,0 +1,11 @@
+.error-page{
+    width: 20em;
+    height: 10em;
+    margin: 1.25em;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

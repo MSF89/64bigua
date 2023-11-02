@@ -9,10 +9,10 @@ function Tour(){
     
     return(
         <>
-        <Link to={`/tours/${DatosTours.id}`} className='link'>
-            { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono}, id) => (
+            { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono, id}) => (
+            <Link to={`/tours/${id}`} className='link' key={id}>
                 
-                <div key={id} className="contenedor-tours"> 
+                <div  className="contenedor-tours"> 
                     <div className='contenedor-img'>
                         <img className='img' src={require(`../Imgs/${imagen}.jpg`)}   alt={`imagen ${imagen}`} />          
                     </div>           
@@ -25,8 +25,8 @@ function Tour(){
                         </div>
                     </div>
                 </div>            
-           )) }
            </Link>
+           )) }
         </>
     )
 }

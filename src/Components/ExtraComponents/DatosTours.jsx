@@ -6,41 +6,53 @@ import LandscapeIcon from '@mui/icons-material/Landscape';
 export const DatosTours = [
     
     {
-        id: "1",
+        id: "kayak",
         imagen: 'pasarelas',
         icono: <DirectionsBoatIcon/>,
-        tour: "'Glaciares'",
-        duracion: "' 1 Hora'",
-        precio: "' $25000'",
-        salidas: "' 09hs/12hs'",
-        descripcion: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima consequatur alias tempora ipsa atque voluptatibus ducimus, praesentium officiis quod iusto mollitia ex esse et ad voluptates animi illum perferendis?</p>'
-    },
+        tour: "Kayak",
+        duracion: "1 Hora",
+        precio: "$25000",
+        salidas: "09hs/12h",
+        descripcion: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, neque? Corporis at incidunt, libero eum cupiditate molestias velit adipisci saepe iure in maxime? Rem enim mollitia perspiciatis sint totam! Illo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, neque? Corporis at incidunt, libero eum cupiditate molestias velit adipisci saepe iure in maxime? Rem enim mollitia perspiciatis sint totam! Illo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, neque? Corporis at incidunt, libero eum cupiditate molestias velit adipisci saepe iure in maxime? Rem enim mollitia perspiciatis sint totam! Illo?",
+        src1: "kayak1",
+        src2: "kayak2",
+        src3: "kayak3",
+        },
     {
-        id: '2',
+        id: 'pasarelas',
         imagen: 'pasarelas',
         icono: <PanoramaIcon/>,
         tour: 'Pasarelas',
         duracion: ' 1 Hora',
         precio: ' $25000',
-        salidas: ' 09hs/12hs'
+        salidas: ' 09hs/12hs',
+        src1: "kayak1",
+        src2: "kayak2",
+        src3: "kayak3",
     },
     {
-        id: '3',
+        id: 'nativo',
         imagen: 'pasarelas',
         icono: <AirportShuttleIcon/>,
         tour: 'Nativo',
         duracion: ' 1 Hora',
         precio: ' $25000',
-        salidas: ' 09hs/12hs'
+        salidas: ' 09hs/12hs',
+        src1: "kayak1",
+        src2: "kayak2",
+        src3: "kayak3",
     },
     {
-        id: '4',
+        id: 'cabalgata',
         imagen: 'pasarelas',
         icono: <LandscapeIcon/>,
         tour: 'Cabalgata',
         duracion: ' 1 Hora',
         precio: ' $25000',
-        salidas: ' 09hs/12hs'
+        salidas: ' 09hs/12hs',
+        src1: "kayak1",
+        src2: "kayak2",
+        src3: "kayak3",
     }
 
 ]

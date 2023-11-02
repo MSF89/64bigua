@@ -1,5 +1,5 @@
 import '../Styles/Head.css'
-import logo from '../Imgs/Logo.svg'
+import logo from '../Imgs/Logo.jpg'
 import { Link } from 'react-router-dom'
 export default function Head(){
     return(

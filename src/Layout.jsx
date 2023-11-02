@@ -7,7 +7,7 @@ export default function Layout(){
         <div className='App'>
       <div className='contenedor-principal'>
         <Head/>
-        <Outlet/>        
+        <Outlet/>    
       </div>
     </div>
     )

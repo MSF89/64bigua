@@ -1,5 +1,12 @@
 
-
+.infoPrecio{
+  padding: .5em;
+  width: 20em;
+  background-color: #FFED00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contenedor-tours{
   width: 20em;
   height: 9em;
@@ -8,7 +15,7 @@
   justify-content: center;
   align-items: center;
   background-color: #FFED00;
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 19%);
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 50%);
 }
 
 .img{

@@ -185,7 +185,7 @@ export const DatosTours = [
         icono: <Landscape/>,
         tour: 'City Tour & Punta Walichu',
         duracion: ' 3 horas',
-        precio: ' 18000 ',
+        precio: ' $18000 ',
         salidas: ' 09:00hs/15:00hs',
         incluye: 'Translado - Guia',
         descripcion: 'Comenzamos con la visita a Punta Walichu, sitio arqueológico ubicado a 8 Km. de la localidad, que te mostrará las huellas de los primeros hombres que caminaron estas tierras. Una caminata a lo largo de los aleros y las cuevas te permitirá observar pinturas rupestres (originales y reproducciones) así como una excepcional vista del Lago Argentino y la Cordillera de los Andes. El circuito transita también las principales calles del casco antiguo del pueblo, mostrándote las típicas primeras construcciones de los pioneros así como los edificios del centro cívico actuales. El guía será el responsable de transportarte en el tiempo hacia la historia de los primeros pobladores, te mostrara la flora, la fauna y otros interesantes detalles que atesora esta pequeña Villa Turística. Realizarás una visita por el Paseo Costero y la Bahía Redonda, a metros de la costa del Lago Argentino, en donde podrás observar la abundante avifauna local. Como última escala, en el Centro de Interpretación Histórica observarás a través de una visita auto-guiada, los hechos de mayor relevancia histórica desde las glaciaciones al presente.',

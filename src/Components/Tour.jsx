@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom'
 import '../Styles/Tours.css'
 import { DatosTours } from './ExtraComponents/DatosTours'
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 
 
@@ -9,6 +10,7 @@ function Tour(){
     
     return(
         <>
+            <div className='infoPrecio'><h4>Precio sujeto a modificaciones </h4><ErrorOutlineIcon/></div>
             { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono, id}) => (
             <Link to={`/${id}`} className='link' key={id}>
                 

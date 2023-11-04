@@ -7,6 +7,13 @@
 .contenedor-info{
     margin-top: .5em;
 }
+.contenedor-nombre-infoTour{
+    margin-left: 1em;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 .descripcion{
     margin: 0 1em;
     padding: 1em;
@@ -14,6 +21,18 @@
     text-align:left;
     background-color: #6E6D6D;
     color: #fff;
+  }
+
+  .descripcion-inc{
+    padding: .2em;
+    border-radius: 5px;
+    background-color:#FFED00 ;
+    color: black;
+    text-align: center;
+  }
+
+  .descripcion h4{
+    margin-top: .5em;
   }
 
 .contenedor-imgs{

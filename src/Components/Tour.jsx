@@ -10,7 +10,7 @@ function Tour(){
     return(
         <>
             { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono, id}) => (
-            <Link to={`/tours/${id}`} className='link' key={id}>
+            <Link to={`/${id}`} className='link' key={id}>
                 
                 <div  className="contenedor-tours"> 
                     <div className='contenedor-img'>

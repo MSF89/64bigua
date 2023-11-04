@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         element: <Tour/>,
       },
       {
-        path:'/tours/:tourid',
+        path:'/:tourid',
         element: <Infotour/>
       }
     ]

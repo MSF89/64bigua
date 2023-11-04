@@ -2,7 +2,7 @@
 
 .contenedor-tours{
   width: 20em;
-  height: 10em;
+  height: 9em;
   margin: 10px;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 .img{
-  height: 9em;
+  height: 8em;
   width: 9em;
 
   padding: 10px;
@@ -28,17 +28,16 @@
 }
 
 .contenedor-nombre-tour{
-  font-size: 1.3rem;
-  border-bottom: .1em solid grey;
-  padding-bottom: .5em;
+  font-size: 1rem;
+  padding-bottom: .25em;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contenedor-descripcion{
-  padding: 1em;
-  font-size: .75em;
-  text-align:left;
+  padding: .5em;
+  font-size: .7em;
   background-color: #6E6D6D;
   color: #fff;
 }

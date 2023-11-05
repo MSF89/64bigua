@@ -13,7 +13,6 @@ function Tour(){
             <div className='infoPrecio'><h4>Precio sujeto a modificaciones </h4><ErrorOutlineIcon/></div>
             { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono, id}) => (
             <Link to={`/${id}`} className='link' key={id}>
-                
                 <div  className="contenedor-tours"> 
                     <div className='contenedor-img'>
                         <img className='img' src={require(`../Imgs/${imagen}.jpg`)}   alt={`imagen ${imagen}`} />          
@@ -26,7 +25,7 @@ function Tour(){
                             <p >Precio:{precio}</p>
                         </div>
                     </div>
-                </div>            
+                </div>          
            </Link>
            )) }
         </>

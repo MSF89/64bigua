@@ -8,6 +8,8 @@
 body{  
   background-color: #F39207;
   font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 .link{
   text-decoration: none;

@@ -182,7 +182,7 @@ export const DatosTours = [
         duracion: ' 9 horas',
         precio: ' Consultar ',
         salidas: ' 10:30hs',
-        link: 'https://walink.co/094543',
+        link: 'https://walink.co/0a4e71',
         incluye: 'Translado - Guia - Snacks - Equipamiento',
         descripcion: 'Actividad única en el mundo donde se realiza Kayaking entre Icebergs dentro del Parque Nacional Los Glaciares.La experiencia de realizar kayak frente al Glaciar Perito Moreno es única, permitiendo navegar entre témpanos y visitar la pared norte de este glaciar como nunca antes se hizo. Esta excursión de día  Completo comienza a las 10:30 am con la recogida en los hoteles, llegaremos al Parque Nacional Los Glaciares, aproximadamente a las 12.00.hs. Para comenzar la travesía los guías le proporcionarán el equipo necesario: un traje seco Gore-Tex, traje térmico, botas, guantes y chaleco salvavidas...  te encontrarás navegando con tu kayak frente al Glaciar Perito Moreno, una experiencia que nunca olvidarás.',
         src1: "kayakGlaciar1",

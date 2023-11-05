@@ -30,7 +30,7 @@ function Infotour(){
                 <img className='imgInfoTours' src={require(`../Imgs/${tours?.src3}.jpg`)} alt={`imagen ${tours?.src3}`}/>
             </div>
         </div>
-        <Link to={tours?.link} className='contacto'>
+        <Link to={tours?.link} className='contacto' target='blank'>
             <h5>Contactanos por {tours?.tour} Tour</h5><WhatsAppIcon sx={{color: 'white'}}/>     
         </Link>
         </>

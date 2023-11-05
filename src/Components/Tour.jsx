@@ -10,7 +10,7 @@ function Tour(){
     
     return(
         <>
-            <div className='infoPrecio'><h4>Precio sujeto a modificaciones </h4><ErrorOutlineIcon/></div>
+            <div className='cont-infoPrecio' ><h4 className='infoPrecio'>Precio sujeto a modificaciones <ErrorOutlineIcon/></h4></div>
             { DatosTours.map(({imagen, tour, duracion, precio, salidas, icono, id}) => (
             <Link to={`/${id}`} className='link' key={id}>
                 <div  className="contenedor-tours"> 

@@ -1,13 +1,17 @@
-
-.infoPrecio{
-  padding: .5em;
+.cont-infoPrecio{
   width: 100vw;
-  background-color: #FFED00;
-  border-left: #F39207 solid 1em;
-  border-right: #F39207 solid 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.infoPrecio{
+  padding: .5em;
+  background-color: #FFED00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
 }
 .contenedor-tours{
   width: 20em;

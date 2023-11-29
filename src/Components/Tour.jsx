@@ -22,7 +22,7 @@ function Tour(){
                         <div className="contenedor-descripcion">
                             <p >Duracion:{duracion}</p>
                             <p >Salidas:{salidas}</p>
-                            <p >Precio: A Consultar</p>
+                            <p >Precio: Consultar</p>
                         </div>
                     </div>
                 </div>          

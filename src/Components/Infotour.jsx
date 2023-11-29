@@ -1,15 +1,18 @@
 import '../Styles/Infotour.css'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import GTranslateIcon from '@mui/icons-material/GTranslate';
 
 import { Link, useParams } from 'react-router-dom'
 import { getTour} from './ExtraComponents/DatosTours'
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 
 function Infotour(){  
     
     const params = useParams()
 
     const tours = useMemo(()=> getTour(params.tourid), [params.tourid])
+
+    const [desc, setDesc] = useState(true)
 
     return(
         <>
@@ -21,7 +24,9 @@ function Infotour(){
                         <h3>Este Tour incluye: </h3>
                         <h3>{tours?.incluye}</h3> 
                     </div>
-                    <h4>{tours?.descripcion}</h4>
+                    <h4>{desc ? tours?.spanishDesc : tours?.englishDesc}</h4>
+                    <h5 className='trans-button' onClick={()=>{ setDesc(!desc)}}>
+                        <GTranslateIcon sx={{color: 'black', fontSize: 15}} />{ desc ? "English" : "Español"}</h5>
                 </div>
             </div>
             <div className='contenedor-imgs'>

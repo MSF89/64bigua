@@ -6,9 +6,6 @@
     background-color: #6E6D6D;
     color: #fff;
   }
-  .busCenter{
-    min-height: none;
-  }
   .bus-list{
     margin-top: 1em;
     text-align: center;
@@ -17,3 +14,15 @@
   .marTop{
     margin-top: 1em;
   }
+  .contactoBus{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: .5em 2em;
+    background-color: rgb(20, 187, 20);
+    border-radius: 15px;
+    width: 80%;
+    height: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

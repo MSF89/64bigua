@@ -7,7 +7,7 @@ import { BusService } from "./ExtraComponents/TerminalService";
 function TerminalService(){
     return(
         <>
-        <div className="contenedor-infotour busCenter">
+        <div className="contenedor-infotour">
             <div className='contenedor-info'>
                 {<h2 className='contenedor-nombre-infoTour'>Bus Terminal Service</h2>}
                 <div className='descripcion'>
@@ -26,10 +26,10 @@ function TerminalService(){
                     </div>
                 </div>
             </div>
-        </div>
-        <Link to="https://walink.co/eed673" className='contacto' target='blank'>
+        <Link to="https://walink.co/eed673" className='contactoBus' target='blank'>
             <h5>Contactanos por los servicios</h5><WhatsAppIcon sx={{color: 'white'}}/>     
         </Link>
+        </div>
         </>
     )
 }

@@ -7,7 +7,7 @@ import { BusService } from "./ExtraComponents/TerminalService";
 function TerminalService(){
     return(
         <>
-        <div className="contenedor-infotour">
+        <div className="contenedor-infotour busCenter">
             <div className='contenedor-info'>
                 {<h2 className='contenedor-nombre-infoTour'>Bus Terminal Service</h2>}
                 <div className='descripcion'>

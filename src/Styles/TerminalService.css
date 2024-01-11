@@ -6,6 +6,9 @@
     background-color: #6E6D6D;
     color: #fff;
   }
+  .busCenter{
+    min-height: none;
+  }
   .bus-list{
     margin-top: 1em;
     text-align: center;

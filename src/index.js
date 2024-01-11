@@ -6,6 +6,7 @@ import './index.css';
 import Layout from './Layout';
 import Tour from './Components/Tour';
 import Infotour from './Components/Infotour';
+import TerminalService from './Components/TerminalService'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:'/:tourid',
         element: <Infotour/>
+      },
+      {
+        path:'/terminalservice',
+        element: <TerminalService/>
       }
     ]
   }

@@ -1,0 +1,16 @@
+.descripcion{
+    margin: 0 1em;
+    padding: 1em;
+    font-size: .75em;
+    text-align:left;
+    background-color: #6E6D6D;
+    color: #fff;
+  }
+  .bus-list{
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  .marTop{
+    margin-top: 1em;
+  }

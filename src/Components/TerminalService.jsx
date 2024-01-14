@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import '../Styles/TerminalService.css'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
+import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import { BusService } from "./ExtraComponents/TerminalService";
 
 function TerminalService(){
@@ -24,6 +25,10 @@ function TerminalService(){
                         <h2>Reserva tu pasaje</h2>
                         <h2>Book your bus ticket</h2>
                     </div>
+                    <div>
+                       <h3 className="contenedor-nombre-infoTour bus-list marTop"><DirectionsCarIcon/>También servicio de alquiler de autos</h3> 
+                       <h2 className="contenedor-nombre-infoTour bus-list marTop"><DirectionsCarIcon/>We have rental car service</h2> 
+                    </div>
                 </div>
             </div>
         <Link to="https://walink.co/eed673" className='contactoBus' target='blank'>
@@ -31,6 +36,7 @@ function TerminalService(){
         </Link>
         </div>
         </>
+
     )
 }
 

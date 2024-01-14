@@ -1,3 +1,3 @@
 export const BusService = [
-    "Chalten", "Rio Gallegos", "Puerto Natales", "Ushuaia", "Los Antiguos", "Bariloche"
+    "Glaciar Perito Moreno","Aeropuerto", "Chalten", "Rio Gallegos", "Puerto Natales", "Ushuaia", "Los Antiguos", "Bariloche"
 ]

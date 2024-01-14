@@ -7,7 +7,7 @@ export default function Head(){
             <div className="contenedor-principal-head">
                 <div className="titulos-head">
                     <h1>Excursiones</h1>
-                    <h2>Tours</h2>
+                    <h2>Excursions</h2>
                 </div>
                 <img className="imagen-head" src= {logo} alt="logo64bigua" />
             </div>

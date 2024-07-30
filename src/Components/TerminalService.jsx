@@ -35,7 +35,7 @@ function TerminalService(){
                     </div>
                 </div>
             </div>
-        <Link to="https://walink.co/eed673" className='contactoBus' target='blank'>
+        <Link to="https://walink.co/01baae" className='contactoBus' target='blank'>
             <h5>Contactanos por los servicios</h5><WhatsAppIcon sx={{color: 'white'}}/>     
         </Link>
         </div>

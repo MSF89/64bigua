@@ -5,6 +5,8 @@ import DirectionsBusIcon from '@mui/icons-material/DirectionsBus';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import { BusService } from "./ExtraComponents/TerminalService";
 
+/* link de whatsap modificado Ahora whats de servicios*/
+
 function TerminalService(){
     return(
         <>
@@ -21,7 +23,7 @@ function TerminalService(){
                         <h2 className="bus-list contenedor-nombre-infoTour" key={id}><DirectionsBusIcon/>{id}</h2>
                     )
                     )}
-                    <Link to="https://walink.co/eed673" className="link" target='blank'>
+                    <Link to="https://walink.co/767b67" className="link" target='blank'>
                         <div className='descripcion-inc marTop'>
                             <h2>Reserva tu pasaje</h2>
                             <h2>Book your bus ticket</h2>

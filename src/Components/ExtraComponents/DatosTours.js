@@ -97,9 +97,9 @@ export const DatosTours = [
         incluye: 'Traslado  - Navegacion',
         spanishDesc: 'Combina las sensaciones de navegar frente al Glaciar Perito Moreno y de poder tocarlo con tus propias manos. Esta excursión comienza en Puerto Bajo las Sombras, con una navegación corta frente al Glaciar, para apreciar la inmensidad de sus paredes desde el agua. La aventura comienza cuando desembarcamos en la costa opuesta. Emprendemos una caminata a orilla del Brazo Rico, apreciando el paisaje que lo rodea y los icebergs que asoman a la superficie. Luego de una hora de caminata, llegas al pie del Glaciar Perito Moreno, pudiendo observar sus diferentes tonalidades, desde el blanco hasta el azul intenso. Puedes tocarlo con tus manos y probar el hielo glaciario. Si las condiciones del Glaciar lo permiten, puedes ubicarte en una de sus cuevas, donde el color se vuelve intenso. Una vez terminada la actividad, regresamos al punto donde desembarcamos por un sendero en el bosque y regresamos a la costa.',
         englishDesc: 'Combine the sensations of sailing in front of the Perito Moreno Glacier and being able to touch it with your own hands. This excursion begins in Puerto Bajo las Sombras, with a short navigation in front of the Glacier, to appreciate the immensity of its walls from the water. The adventure starts when we disembark on the opposite coast. We start a walk along the shore of the Brazo Rico, appreciating the landscape that surrounds it and the icebergs that appear on the surface. After an hour of walking, you arrive at the foot of the Perito Moreno Glacier, being able to observe its different shades, from white to intense blue. You can touch it with your hands and taste the glacial ice. If the conditions of the Glacier allow it, you can go to one of its caves, where the color becomes intense. Once the activity is over, we return to the point where we disembark along a path in the forest and return to the coast.',
-        src1: "SafariAzul1",
-        src2: "SafariAzul2",
-        src3: "SafariAzul3",
+        src1: "safariAzul1",
+        src2: "safariAzul2",
+        src3: "safariAzul3",
     },
     {
         id: 'punWa',

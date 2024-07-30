@@ -23,7 +23,7 @@ function TerminalService(){
                         <h2 className="bus-list contenedor-nombre-infoTour" key={id}><DirectionsBusIcon/>{id}</h2>
                     )
                     )}
-                    <Link to="https://walink.co/767b67" className="link" target='blank'>
+                    <Link to="https://walink.co/01baae" className="link" target='blank'>
                         <div className='descripcion-inc marTop'>
                             <h2>Reserva tu pasaje</h2>
                             <h2>Book your bus ticket</h2>

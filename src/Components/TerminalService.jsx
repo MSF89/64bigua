@@ -29,10 +29,7 @@ function TerminalService(){
                             <h2>Book your bus ticket</h2>
                         </div>
                     </Link>
-                    <div>
-                       <h3 className="contenedor-nombre-infoTour bus-list marTop"><DirectionsCarIcon/>También servicio de alquiler de autos</h3> 
-                       <h2 className="contenedor-nombre-infoTour bus-list marTop"><DirectionsCarIcon/>Rental car service</h2> 
-                    </div>
+                    
                 </div>
             </div>
         <Link to="https://walink.co/01baae" className='contactoBus' target='blank'>

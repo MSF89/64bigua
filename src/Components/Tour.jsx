@@ -26,7 +26,7 @@ function Tour(){
                     </div>
                 </div>
             </Link>
-            { DatosTours.map(({imagen, tour, duracion, salidas, icono, id}) => (
+            { DatosTours.map(({imagen, tour, duracion, salidas, icono, precio, id}) => (
             <Link to={`/${id}`} className='link' key={id}>
                 <div  className="contenedor-tours"> 
                     <div className='contenedor-img'>
@@ -37,7 +37,7 @@ function Tour(){
                         <div className="contenedor-descripcion">
                             <p >Duracion:{duracion}</p>
                             <p >Salidas:{salidas}</p>
-                            <p >Precio: Consultar</p>
+                            <p >Precio: {precio}</p>
                         </div>
                     </div>
                 </div>          
